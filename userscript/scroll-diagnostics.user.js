@@ -1,11 +1,15 @@
 // ==UserScript==
 // @name         Scroll Diagnostics (Firefox Wayland)
-// @namespace    local.scroll.diag
-// @version      1.0
-// @description  Log wheel/scroll events on any page to isolate site-specific failures
+// @namespace    https://github.com/vr-ski/scroll-diagnostics-userscript
+// @version      1.0.0
+// @description  Log wheel/scroll events and dump scroll chains on any page to isolate site-specific failures
+// @author       vr-ski
+// @license      BSD-2-Clause
 // @match        *://*/*
 // @run-at       document-start
 // @grant        none
+// @homepageURL  https://github.com/vr-ski/scroll-diagnostics-userscript
+// @supportURL   https://github.com/vr-ski/scroll-diagnostics-userscript/issues
 // ==/UserScript==
 
 (function () {
